@@ -28,12 +28,12 @@ const Login = ({ onLogin }) => {
                     onChange={(e) => setUsername(e.target.value)}
                 />
                 <input
-                    type="password"
+                    type="password "
                     placeholder=" Mots de passe"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                 />
-                <button type="submit"> se connecter </button>
+                <button type="submit"> Se Connecter </button>
             </form>
         </div>
     );
