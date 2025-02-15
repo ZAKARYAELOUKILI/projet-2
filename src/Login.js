@@ -9,7 +9,7 @@ const Login = ({ onLogin }) => {
     const handleSubmit = (event) => {
         event.preventDefault();
        
-        if (username === 'zaka' && password === 'loux') {
+        if (username === 'zaka' && password === 'zaka') {
             onLogin(); 
             navigate('/'); 
         } else {
